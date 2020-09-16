@@ -9,11 +9,11 @@
     <title>CyberLife</title>
 </head>
 
-<body>
+<body><img src="hearth.png" alt="Logo">
     <div class="container">
-        <h3>Insira a area do seu local </h3>
+        <h3>Insira a área do seu local </h3>
         <input type="number" id="area_user"> <br>
-        <button onclick="calcular()" id="btn_calcular">calcular valor</button>
+        <button onclick="calcular()" id="btn_calcular">Calcular Valor</button> 
         <div id="div_teste"></div>
     </div>
 </body>
@@ -23,6 +23,6 @@
     function calcular() {
         var area = Number(area_user.value) / 2;
         var preco = Number(60) * area;
-        div_teste.innerHTML = `${preco} este é o preco`;
+        div_teste.innerHTML = `<br> <b>${preco.toFixed(2)}</b> Este é o preço`;
     }
 </script>

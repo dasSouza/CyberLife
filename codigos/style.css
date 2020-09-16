@@ -1,12 +1,17 @@
 body{
-    background-color: #9AA0A8;
     align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    font-size: 20px;
 }
-
+img{
+    width: 100px;
+}
 .container{
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     left: 0;
@@ -17,14 +22,12 @@ body{
     height: 33vh;
     padding: 35px;
     margin: -156px auto 0 auto;
-    background-color: #7b82b3;
-    border-radius: 34px;
+    background-color:cadetblue;
     box-shadow: 0 10px 40px #131111b8, 0 0 0 20px #ffffffeb;
 }
-
 .container input[type=number]:focus{
     outline: none;
-    color: black;
+    color:honeydew;
 }
 
 .container input[type=number]{
@@ -37,13 +40,19 @@ body{
     color: black;
     outline: none;
 }
-
-
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+ } 
 .container #btn_calcular{
-    background-color: #4CAF50;
     cursor: pointer;
     border-radius: 11px;
-    border: 2px black solid;
     height: 47px;
     width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    font-size: 20px;
 }
+.container #btn_calcular:hover {
+    border: rgba(0, 255, 242, 0.753) 1px solid;
+    color: rgba(0, 255, 242, 0.753);
+    }
