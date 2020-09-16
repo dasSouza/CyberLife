@@ -1,7 +1,24 @@
 body{
-    background-color: #00ffff;
+    background-color: #b2b2b2;
 }
 
 #chart{
     background-color: white;
+}
+
+header{
+    background-color: #000000;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 24px;
+}
+
+header img{
+    height: 16vh;
+}
+
+header span{
+    color: lightskyblue;
+    font-size: 1.9em;
 }
