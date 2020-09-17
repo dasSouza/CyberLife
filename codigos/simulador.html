@@ -9,16 +9,23 @@
     <title>CyberLife</title>
 </head>
 
-<body><img src="hearth.png" alt="Logo">
+<body>
+    <div class="logo_titulo">
+        <span>CyberLife</span>
+    <img src="hearth.png" alt="Logo">
+    </div>
+
     <div class="container">
         <h3>Insira a área do seu local </h3>
         <input type="number" id="area_user"> <br>
-        <button onclick="calcular()" id="btn_calcular">Calcular Valor</button> 
+        <button onclick="calcular()" id="btn_calcular">Calcular Valor</button>
         <div id="div_teste"></div>
     </div>
+
 </body>
 
 </html>
+
 <script>
     function calcular() {
         var area = Number(area_user.value) / 2;

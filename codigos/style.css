@@ -6,13 +6,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: honeydew;
     font-size: 20px;
+    background-color: #8B9EB7;
 }
+
+.logo_titulo{
+    margin-left: 46%;
+}
+
 img{
     width: 100px;
+    margin-left: -90px;
+    margin-top: 12px;
 }
+
 .container{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
+    border-radius: 12px;
     top: 50%;
     left: 0;
     right: 0;
@@ -22,9 +32,10 @@ img{
     height: 33vh;
     padding: 35px;
     margin: -156px auto 0 auto;
-    background-color:cadetblue;
-    box-shadow: 0 10px 40px #131111b8, 0 0 0 20px #ffffffeb;
+    background-color: #001D4A;
+    box-shadow: -4px -1px 20px 0px #131111b8, 0px 0px 20px 17px #ffffffeb;
 }
+
 .container input[type=number]:focus{
     outline: none;
     color:honeydew;
@@ -36,13 +47,15 @@ img{
     width: 100%;
     background-color: transparent;
     border: none;
-    border-bottom: rgba(0, 255, 242, 0.753) 1px solid;
-    color: black;
+    border-bottom: #ffffff 2px solid;
+    color: #ffffff;
     outline: none;
 }
+
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
- } 
+} 
+
 .container #btn_calcular{
     cursor: pointer;
     border-radius: 11px;
@@ -51,8 +64,12 @@ input[type=number]::-webkit-inner-spin-button {
     font-family: Arial, Helvetica, sans-serif;
     color:grey;
     font-size: 20px;
+    transition: 0.2s;
 }
 .container #btn_calcular:hover {
-    border: rgba(0, 255, 242, 0.753) 1px solid;
-    color: rgba(0, 255, 242, 0.753);
-    }
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: #8B9EB7;
+    border: #001D4A;
+    color: #ffffff;
+}
