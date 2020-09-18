@@ -11,12 +11,14 @@ body{
 
 .logo_titulo{
     margin-left: 46%;
+   font-size: 23px;
 }
 
 img{
     width: 100px;
-    margin-left: -90px;
+    margin-left: -105px;
     margin-top: 12px;
+    margin-bottom: 24px;
 }
 
 .container{
