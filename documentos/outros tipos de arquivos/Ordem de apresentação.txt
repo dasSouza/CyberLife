@@ -1,11 +1,36 @@
-leozin = introdução
-Todo mundo = Apresentação
-jailson = setor de armazenamento
-Jean, Mathias = solução 
-Mathias  = Grafico
-Como funciona = Isabela 
-Requisitos = Talles
-Bruno = Site , Simulador de orçamento
-Nicolas = Tabela no MYSQL, Aquivos do GIT
+﻿                          Leozin = Introdução
+
+-------------------------------------------------------------------------------------
+
+                          Todo mundo = Apresentação
+
+-------------------------------------------------------------------------------------
+
+                          Jailson = Setor de armazenamento
+
+-------------------------------------------------------------------------------------
+
+                          Jean, Mathias = Solução 
+
+-------------------------------------------------------------------------------------
+
+                          Mathias  = Grafico
+
+-------------------------------------------------------------------------------------
+
+                          Isabela = Como funciona
+
+-------------------------------------------------------------------------------------
+
+                          Talles = Requisitos
+
+-------------------------------------------------------------------------------------
+
+                          Bruno = Site , Simulador de orçamento
+
+-------------------------------------------------------------------------------------
+
+                          Nicolas = Tabela no MYSQL, Aquivos do GIT
+
 
 
