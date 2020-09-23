@@ -1,31 +1,34 @@
 create database CyberLife;
+
 use CyberLife;
-create table Doador (
-idDoador int primary key auto_increment, 
-nome varchar (40),
-tipo_de_sangue char (3),
-orgão varchar (40)
-);
-select*from Doador;
 
-create table Receptor (
-idReceptor int primary key auto_increment,
-nome varchar (40),
-tipo_de_sangue char (3),
-orgão varchar (40)
-); 
-drop table Receptor, Doador;
-select*from Receptor;
-
+-- ARMAZENADOS 
 create table Armazenamento (
-idArmaze int primary key auto_increment,
+idArmazenamento int primary key auto_increment,
 Orgão varchar (20),
 temperatura char (4)
 );
-select*from Armazenamento;
+
 insert into Armazenamento values 
 ( null, 'coração', '-178'),
 ( null, 'pulmão', '-190'),
 ( null, 'fígado', '-180');
-delete from Armazenamento where idArmaze = 6;
 
+select*from Armazenamento;
+
+ -- USUARIOS QUE TEM LOGIN NO SITE 
+create table Usuario (
+id_usuario int primary key auto_increment,
+nome varchar(40),
+Email varchar(40),
+cep varchar(12),
+numero varchar(10),
+Senha char(10) ) ;
+
+insert into Usuario values
+ 
+(null,'Cleber','cleberoliveira199@gmail.com','04849630','5550B','426798' ),
+(null,'Leonardo','leonardovieira2008@gmail.com','8880','04849890','507894' ),
+(null,'Bruno','brunosilva200@gmail.com','04986750','1990B','9078605' );
+
+select * from usuario;
